@@ -6,6 +6,10 @@
   "bin": {
     "generate-amp": "dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomhos/amp-generator.git"
+  },
   "scripts": {
     "eslint": "eslint .",
     "dev-watch": "nodemon --exec 'npm run dev'",
@@ -14,7 +18,10 @@
     "prepublish": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Thom Hos",
+    "email": "thom@thom.kr"
+  },
   "license": "ISC",
   "dependencies": {
     "autoprefixer-stylus": "^0.14.0",
