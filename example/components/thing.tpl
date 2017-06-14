@@ -1,0 +1,1 @@
+<div>I'm a component called Thing!a!</div>
